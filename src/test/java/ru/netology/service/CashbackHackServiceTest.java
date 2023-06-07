@@ -41,6 +41,7 @@ public class CashbackHackServiceTest {
         int expected = 999;
         assertEquals(actual, expected);
     }
+
     @org.junit.Test
     public void testRemainWithCashback3() {
         CashbackHackService service = new CashbackHackService();
